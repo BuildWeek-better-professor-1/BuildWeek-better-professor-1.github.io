@@ -145,21 +145,33 @@ h5 {
   margin: 0 auto;
   padding: 20px 1%;
 }
-.container nav {
+.container .navBox {
   display: flex;
-  padding-bottom: 3%;
   width: 100%;
+  background: #282c34;
+}
+.container .navBox .logo {
+  width: 20%;
+  height: auto;
+}
+.container .navBox h3 {
+  text-align: left;
+  color: white;
+  font-size: 3.6rem;
+}
+.container .navBox nav {
+  padding-bottom: 3%;
   position: relative;
   justify-content: end;
 }
-.container nav a {
+.container .navBox nav a {
   text-decoration: none;
-  color: black;
+  color: white;
   padding: 7px;
 }
-.container nav a:hover {
-  background-color: purple;
-  color: white;
+.container .navBox nav a:hover {
+  background-color: white;
+  color: black;
 }
 .container h1 {
   font-size: 6rem;
@@ -209,6 +221,7 @@ h5 {
   padding: 10%;
   border: 3px solid black;
   align-content: center;
+  background: #add8e6;
 }
 .regBox #instructorBox {
   flex-direction: column;

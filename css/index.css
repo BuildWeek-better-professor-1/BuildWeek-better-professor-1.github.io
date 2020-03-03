@@ -152,61 +152,14 @@ h5 {
   position: relative;
   justify-content: end;
 }
-.container nav .navigation {
-  position: relative;
-  width: 16%;
-  justify-content: space-between;
-}
-.container nav .navigation a {
+.container nav a {
   text-decoration: none;
   color: black;
   padding: 7px;
 }
-.container nav .navigation a:hover {
+.container nav a:hover {
   background-color: purple;
   color: white;
-}
-.container nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-.container nav li a,
-.container nav .dropbtn {
-  text-align: center;
-  padding: 14px 8px;
-  text-decoration: none;
-  color: black;
-}
-.container nav li a:hover,
-.container nav .dropdown:hover .dropbtn {
-  background-color: purple;
-  color: white;
-}
-.container nav li.dropdown {
-  display: inline-block;
-}
-.container nav .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 150px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-.container nav .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-.container nav .dropdown-content a:hover {
-  background-color: purple;
-}
-.container nav .dropdown:hover .dropdown-content {
-  display: block;
 }
 .container h1 {
   font-size: 6rem;

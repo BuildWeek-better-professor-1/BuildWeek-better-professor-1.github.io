@@ -151,20 +151,31 @@ h5 {
   background: #282c34;
   margin-bottom: 3%;
 }
+@media (max-width: 500px) {
+  .container .navBox {
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+  }
+}
 .container .navBox .logo {
   position: relative;
   width: 70px;
   height: auto;
 }
 .container .navBox h3 {
-  word-wrap: none;
-  left: 0;
   margin-right: 25%;
   padding-top: 2%;
   width: 400px;
   position: relative;
   color: white;
   font-size: 3.6rem;
+}
+@media (max-width: 500px) {
+  .container .navBox h3 {
+    margin: auto;
+    position: static;
+  }
 }
 .container .navBox nav {
   width: 45%;
@@ -173,10 +184,26 @@ h5 {
   position: relative;
   justify-content: end;
 }
+@media (max-width: 500px) {
+  .container .navBox nav {
+    display: flex;
+    flex-direction: column;
+    position: static;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+}
 .container .navBox nav a {
   text-decoration: none;
   color: white;
   padding: 7px;
+}
+@media (max-width: 500px) {
+  .container .navBox nav a {
+    width: 100%;
+    text-align: center;
+  }
 }
 .container .navBox nav a:hover {
   background-color: white;
@@ -187,12 +214,28 @@ h5 {
   text-align: center;
   text-transform: uppercase;
 }
+@media (max-width: 500px) {
+  .container h1 {
+    font-size: 4.8rem;
+  }
+}
 .container h2 {
+  margin-top: 2%;
   font-size: 4.8rem;
   text-align: center;
 }
+@media (max-width: 500px) {
+  .container h2 {
+    font-size: 3.6rem;
+  }
+}
 .container .box1 {
   display: flex;
+}
+@media (max-width: 500px) {
+  .container .box1 {
+    flex-direction: column;
+  }
 }
 .container .box1 p {
   text-align: center;
@@ -200,6 +243,13 @@ h5 {
 .container .box1 .subformat {
   margin: auto;
   width: 49%;
+}
+@media (max-width: 500px) {
+  .container .box1 .subformat {
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+  }
 }
 .container .box1 .subformat li {
   font-size: 2.8rem;
@@ -210,18 +260,44 @@ h5 {
   width: 48%;
   float: right;
 }
+@media (max-width: 500px) {
+  .container .box1 .swampImg {
+    width: 98%;
+    float: none;
+    margin: auto;
+  }
+}
 .container .box1 .toolsImg {
   height: auto;
   width: 48%;
   float: left;
 }
+@media (max-width: 500px) {
+  .container .box1 .toolsImg {
+    width: 98%;
+    float: none;
+    margin: auto;
+  }
+}
 .container .box1 .teamPic {
   height: auto;
   width: 40%;
 }
+@media (max-width: 500px) {
+  .container .box1 .teamPic {
+    width: 98%;
+    margin: auto;
+  }
+}
 .container .box1 .TheresaPortrait {
   height: auto;
   width: 40%;
+}
+@media (max-width: 500px) {
+  .container .box1 .TheresaPortrait {
+    width: 98%;
+    margin: auto;
+  }
 }
 .perks {
   display: flex;
@@ -231,10 +307,22 @@ h5 {
   justify-content: space-around;
   background: #add8e6;
 }
+@media (max-width: 500px) {
+  .perks {
+    flex-direction: column;
+    flex-wrap: none;
+  }
+}
 .perks .box2 {
   width: 35%;
   text-align: center;
   margin: 5%;
+}
+@media (max-width: 500px) {
+  .perks .box2 {
+    width: 98%;
+    margin: auto;
+  }
 }
 .regBox {
   display: flex;
@@ -242,6 +330,12 @@ h5 {
   margin-top: 5%;
   margin-bottom: 5%;
   border: 3px solid black;
+}
+@media (max-width: 500px) {
+  .regBox {
+    flex-direction: column;
+    margin: auto;
+  }
 }
 .regBox .box3 {
   display: flex;

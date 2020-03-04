@@ -214,46 +214,39 @@ h5 {
   height: auto;
   width: 40%;
 }
-.regBox {
+.perks {
   display: flex;
-  margin: auto;
-  width: 70%;
+  flex-wrap: wrap;
+  max-width: 98%;
   padding: 10%;
-  border: 3px solid black;
-  align-content: center;
+  justify-content: space-around;
   background: #add8e6;
 }
-.regBox #instructorBox {
-  flex-direction: column;
-  margin: auto;
+.perks .box2 {
+  width: 35%;
   text-align: center;
+  margin: 5%;
 }
-.regBox #instructorBox .apple {
+.regBox {
+  display: flex;
+  padding: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border: 3px solid black;
+  background: #add8e6;
+}
+.regBox .box3 {
+  flex-wrap: wrap;
+}
+.regBox .box3 img {
   width: 75%;
   height: auto;
 }
-.regBox #instructorBox a {
+.regBox .box3 a {
   text-decoration: none;
   color: black;
 }
-.regBox #instructorBox a:hover {
-  background-color: purple;
-  color: white;
-}
-.regBox #studentBox {
-  flex-direction: column;
-  margin: auto;
-  text-align: center;
-}
-.regBox #studentBox .graduate {
-  width: 75%;
-  height: auto;
-}
-.regBox #studentBox a {
-  text-decoration: none;
-  color: black;
-}
-.regBox #studentBox a:hover {
+.regBox .box3 a:hover {
   background-color: purple;
   color: white;
 }

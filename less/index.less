@@ -143,21 +143,33 @@ h2 {
 }
 }
 }
+.perks {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 98%;
+  padding: 10%;
+ justify-content: space-around;
+  background: #add8e6;
+
+  .box2 {
+    width: 35%;
+text-align: center;
+margin: 5%;
+  }
+}
+
 .regBox {
   display: flex;
-  margin: auto;
-  width: 70%;
-  padding: 10%;
+  padding: 5%;
+margin-top: 5%;
+margin-bottom: 5%;
   border: 3px solid black;
-  align-content: center;
   background: #add8e6;
   
 
-#instructorBox {
-    flex-direction: column;
-    margin: auto;
-    text-align: center;
-  .apple {
+.box3 {
+  flex-wrap: wrap;
+  img {
     width: 75%;
     height: auto;
   }
@@ -170,29 +182,8 @@ h2 {
     color: white;
 
   }
+
 }
-#studentBox {
-  flex-direction: column;
-  margin: auto;
-  text-align: center;
-  .graduate {
-    width: 75%;
-    height: auto;
-  }
-  a {
-    text-decoration: none;
-    color: black;
-  }
-  a:hover {
-    background-color: purple;
-    color: white;
-
-  }
-}
-
-
-
-
 }
 footer {
   display: flex;

@@ -149,17 +149,26 @@ h5 {
   display: flex;
   width: 100%;
   background: #282c34;
+  margin-bottom: 3%;
 }
 .container .navBox .logo {
-  width: 20%;
+  position: relative;
+  width: 70px;
   height: auto;
 }
 .container .navBox h3 {
-  text-align: left;
+  word-wrap: none;
+  left: 0;
+  margin-right: 25%;
+  padding-top: 2%;
+  width: 400px;
+  position: relative;
   color: white;
   font-size: 3.6rem;
 }
 .container .navBox nav {
+  width: 45%;
+  padding-top: 3%;
   padding-bottom: 3%;
   position: relative;
   justify-content: end;
@@ -233,16 +242,17 @@ h5 {
   margin-top: 5%;
   margin-bottom: 5%;
   border: 3px solid black;
-  background: #add8e6;
 }
 .regBox .box3 {
-  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
 }
 .regBox .box3 img {
   width: 75%;
   height: auto;
 }
 .regBox .box3 a {
+  text-align: center;
   text-decoration: none;
   color: black;
 }
